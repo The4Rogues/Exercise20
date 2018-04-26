@@ -10,56 +10,46 @@
 class accessibility_options {
     
     var $id;
-    var $early_leaner;
-    var $biginner_reader;
-    var $young_adult;
-    var $adult;   
+    var $large_print;
+    var $braille;
+    var $audio_book;  
     
-    function __construct($early_leaner, $biginner_reader, $young_adult, $adult) {
-        $this->early_leaner = $early_leaner;
-        $this->biginner_reader = $biginner_reader;
-        $this->young_adult = $young_adult;
-        $this->adult = $adult;
+    function __construct($large_print, $braille, $audio_book) {
+        $this->large_print = $large_print;
+        $this->braille = $braille;
+        $this->audio_book = $audio_book;
     }
 
     function get_id() {
         return $this->id;
     }
 
-    function get_early_leaner() {
-        return $this->early_leaner;
+    function get_large_print() {
+        return $this->large_print;
     }
 
-    function get_biginner_reader() {
-        return $this->biginner_reader;
+    function get_braille() {
+        return $this->braille;
     }
 
-    function get_young_adult() {
-        return $this->young_adult;
-    }
-
-    function get_adult() {
-        return $this->adult;
+    function get_audio_book() {
+        return $this->audio_book;
     }
 
     function set_id($id) {
         $this->id = $id;
     }
 
-    function set_early_leaner($early_leaner) {
-        $this->early_leaner = $early_leaner;
+    function set_large_print($large_print) {
+        $this->large_print = $large_print;
     }
 
-    function set_biginner_reader($biginner_reader) {
-        $this->biginner_reader = $biginner_reader;
+    function set_braille($braille) {
+        $this->braille = $braille;
     }
 
-    function set_young_adult($young_adult) {
-        $this->young_adult = $young_adult;
-    }
-
-    function set_adult($adult) {
-        $this->adult = $adult;
+    function set_audio_book($audio_book) {
+        $this->audio_book = $audio_book;
     }
 
 }
