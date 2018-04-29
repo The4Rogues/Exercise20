@@ -8,26 +8,26 @@
 
 class author {
     
-    var $id;
-    var $name;
+    private $id;
+    private $name;
     
-    function __construct($name) {
+    public function __construct($name) {
         $this->name = $name;
     }
 
-    function get_id() {
+    public function get_id() {
         return $this->id;
     }
 
-    function get_name() {
+    public function get_name() {
         return $this->name;
     }
 
-    function set_id($id) {
+    public function set_id($id) {
         $this->id = $id;
     }
 
-    function set_name($name) {
+    public function set_name($name) {
         $this->name = $name;
     }
 

@@ -7,26 +7,26 @@
  */
 class costs {
     
-    var $id;
-    var $charges;
+    private $id;
+    private $charges;
     
-    function __construct($charges) {
+    public function __construct($charges) {
         $this->charges = $charges;
     }
     
-    function get_id() {
+    public function get_id() {
         return $this->id;
     }
 
-    function get_charges() {
+    public function get_charges() {
         return $this->charges;
     }
 
-    function set_id($id) {
+    public function set_id($id) {
         $this->id = $id;
     }
 
-    function set_charges($charges) {
+    public function set_charges($charges) {
         $this->charges = $charges;
     }
 
