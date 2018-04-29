@@ -10,13 +10,13 @@ class reader_level {
     var $id;
     var $early_learner;
     var $beginner_reader;
-    var $yound_adult;
+    var $young_adult;
     var $adult;
     
-    function __construct($early_learner, $beginner_reader, $yound_adult, $adult) {
+    function __construct($early_learner, $beginner_reader, $young_adult, $adult) {
         $this->early_learner = $early_learner;
         $this->beginner_reader = $beginner_reader;
-        $this->yound_adult = $yound_adult;
+        $this->young_adult = $young_adult;
         $this->adult = $adult;
     }
 
@@ -32,8 +32,8 @@ class reader_level {
         return $this->beginner_reader;
     }
 
-    function get_yound_adult() {
-        return $this->yound_adult;
+    function get_young_adult() {
+        return $this->young_adult;
     }
 
     function get_adult() {
@@ -52,8 +52,8 @@ class reader_level {
         $this->beginner_reader = $beginner_reader;
     }
 
-    function set_yound_adult($yound_adult) {
-        $this->yound_adult = $yound_adult;
+    function set_young_adult($young_adult) {
+        $this->young_adult = $young_adult;
     }
 
     function set_adult($adult) {
