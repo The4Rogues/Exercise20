@@ -5,6 +5,7 @@
  *  id as Primary key on SQL are not included
  * 
  */
+namespace genre;
 
 class genre {
      

@@ -4,8 +4,8 @@
  *
  * id as Primary key on SQL are not included in constructor
  * 
- * 
  */
+namespace accessibility_options;
 
 class accessibility_options {
     

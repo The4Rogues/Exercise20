@@ -5,7 +5,7 @@
  *  id as Primary key on SQL are not included
  *  All as
  */
-//namespace classes\books;
+namespace book;
 
 class books {
     

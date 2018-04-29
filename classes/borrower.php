@@ -8,9 +8,12 @@
  *  acc_last active is time stamp of logged in
  * 
  */
+namespace borrower;
+
+use person;
 include_once ("person.php");
 
-class borrower extends person {
+class borrower extends person\person {
 
     private $dob;
     private $address;

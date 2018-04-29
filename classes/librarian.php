@@ -1,12 +1,13 @@
 <?php
 
 /* 
- * 
  *  id as Primary key on SQL are not included
  * 
  */
+namespace librarian;
 
 include_once ("person.php");
+use person\person as person;
 
 class librarian extends person {
        

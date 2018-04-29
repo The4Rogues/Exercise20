@@ -5,6 +5,7 @@
  *  id as Primary key on SQL are not included
  * 
  */
+namespace books_authors;
 
 class books_authors {
     

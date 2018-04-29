@@ -2,7 +2,7 @@
 /*
  * Sample code 
  * https://thomashunter.name/blog/simple-php-namespace-friendly-autoloader-class/
- * 
+ * Not used for namespace
  */
 class Autoloader {
     static public function loader($className) {

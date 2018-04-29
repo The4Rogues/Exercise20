@@ -5,6 +5,8 @@
  *  id as Primary key on SQL are not included
  * 
  */
+namespace costs;
+
 class costs {
     
     private $id;

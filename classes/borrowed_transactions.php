@@ -5,6 +5,8 @@
  *  id as Primary key on SQL are not included
  *  transaction_date is Time stamp when created
  */
+namespace borrowed_transactions;
+
 class borrowed_transactions {
     
     private $id;

@@ -5,6 +5,8 @@
  *  id as Primary key on SQL are not included
  * 
  */
+namespace reader_level;
+
 class reader_level {
      
     private $id;

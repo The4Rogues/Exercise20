@@ -5,7 +5,9 @@ Exercise20 Classes
 
 
 - A class on each table have been created, stored in classes folder
-- Each class has variable, getter and setter of all the fields of the corresponding table
+- Each class has private variable, public getter and setter of all the fields of the corresponding table
+
+## Class will be used for data to be insert into SQL, such as add books or new user registration
 
 
 ### Constructor
@@ -13,8 +15,8 @@ Exercise20 Classes
     * All variables declared are in as parameter of the constructor
       EXCEPT:
         If $id is a primary key on the table
-        Any varible from Date (timestamps and relation to it)
-        $amount on borrowed_transaction class and service_transaction class (as it will be caluculated)
+        Any variable from Date (timestamps and relation to it)
+        $amount on borrowed_transaction class and service_transaction class (as it will be calculated)
         
     * Special attentions to those which can be null
         $email from borrower table
