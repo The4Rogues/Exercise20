@@ -22,11 +22,11 @@ class books {
     // bool using int
     var $is_out_for_repair;
     var $original_price;
-    var $accessibility_option_id;
+    var $accessibility_options_id;
     var $genre_id;
     var $reader_level_id;
     
-    function __construct($isbn, $title, $publisher, $year, $age_restriction, $edition, $is_lost, $is_reference, $is_out_for_repair, $original_price, $accessibility_option_id, $genre_id, $reader_level_id) {
+    function __construct($isbn, $title, $publisher, $year, $age_restriction, $edition, $is_lost, $is_reference, $is_out_for_repair, $original_price, $accessibility_options_id, $genre_id, $reader_level_id) {
         $this->isbn = $isbn;
         $this->title = $title;
         $this->publisher = $publisher;
@@ -37,7 +37,7 @@ class books {
         $this->is_reference = $is_reference;
         $this->is_out_for_repair = $is_out_for_repair;
         $this->original_price = $original_price;
-        $this->accessibility_option_id = $accessibility_option_id;
+        $this->accessibility_options_id = $accessibility_options_id;
         $this->genre_id = $genre_id;
         $this->reader_level_id = $reader_level_id;
     }
@@ -86,8 +86,8 @@ class books {
         return $this->original_price;
     }
 
-    function get_accessibility_option_id() {
-        return $this->accessibility_option_id;
+    function get_accessibility_options_id() {
+        return $this->accessibility_options_id;
     }
 
     function get_genre_id() {
@@ -142,8 +142,8 @@ class books {
         $this->original_price = $original_price;
     }
 
-    function set_accessibility_option_id($accessibility_option_id) {
-        $this->accessibility_option_id = $accessibility_option_id;
+    function set_accessibility_options_id($accessibility_options_id) {
+        $this->accessibility_options_id = $accessibility_options_id;
     }
 
     function set_genre_id($genre_id) {

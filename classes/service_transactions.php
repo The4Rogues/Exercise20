@@ -11,12 +11,12 @@ class service_transactions {
     var $transaction_date;
     var $amount;
     var $borrower_id;
-    var $service_charged_id;
+    var $service_charges_id;
     
-    function __construct($borrower_id, $service_charged_id) {
+    function __construct($borrower_id, $service_charges_id) {
        
         $this->borrower_id = $borrower_id;        
-        $this->service_charged_id = $service_charged_id;
+        $this->service_charges_id = $service_charges_id;
         $this->transaction_date = date('Y-m-d');
     }
 
@@ -36,8 +36,8 @@ class service_transactions {
         return $this->borrower_id;
     }
 
-    function get_service_charged_id() {
-        return $this->service_charged_id;
+    function get_service_charges_id() {
+        return $this->service_charges_id;
     }
 
     function set_id($id) {
@@ -56,8 +56,8 @@ class service_transactions {
         $this->borrower_id = $borrower_id;
     }
 
-    function set_service_charged_id($service_charged_id) {
-        $this->service_charged_id = $service_charged_id;
+    function set_service_charges_id($service_charges_id) {
+        $this->service_charges_id = $service_charges_id;
     }
 
 

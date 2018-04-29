@@ -6,7 +6,7 @@
  * 
  */
 
-class service_charge {
+class service_charges {
     
     var $id;
     var $service_name;

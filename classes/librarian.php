@@ -9,15 +9,15 @@
 class librarian {
     
     var $id;
-    var $employment_no;
+    var $employee_no;
     var $username;
     var $password;
     var $first_name;
     var $last_name;
     var $email;
     
-    function __construct($employment_no, $username, $password, $first_name, $last_name, $email) {
-        $this->employment_no = $employment_no;
+    function __construct($employee_no, $username, $password, $first_name, $last_name, $email) {
+        $this->employee_no = $employee_no;
         $this->username = $username;
         $this->password = $password;
         $this->first_name = $first_name;
@@ -29,8 +29,8 @@ class librarian {
         return $this->id;
     }
 
-    function get_employment_no() {
-        return $this->employment_no;
+    function get_employee_no() {
+        return $this->employee_no;
     }
 
     function get_username() {
@@ -57,8 +57,8 @@ class librarian {
         $this->id = $id;
     }
 
-    function set_employment_no($employment_no) {
-        $this->employment_no = $employment_no;
+    function set_employee_no($employee_no) {
+        $this->employee_no = $employee_no;
     }
 
     function set_username($username) {
